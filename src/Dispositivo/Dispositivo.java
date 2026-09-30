@@ -16,4 +16,8 @@ public class Dispositivo {
             String estado = activo?"estado activo":"estado inactivo";
             System.out.println(nombre+" "+activo);
         }
+
+        void activas(){
+            
+        }
     }
