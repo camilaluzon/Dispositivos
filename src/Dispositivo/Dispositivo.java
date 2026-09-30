@@ -17,7 +17,9 @@ public class Dispositivo {
             System.out.println(nombre+" "+activo);
         }
 
-        void activas(){
-            
+        void activar(){
+            if (activo==false){
+            activo=true;
+            System.out.println(nombre+ "ha sido activado");
         }
     }
