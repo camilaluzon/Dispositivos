@@ -1,6 +1,6 @@
-package dispositivo;
+package Dispositivo;
 
-public class dispositivo {
+public class Dispositivo {
 
         public String nombre;
         String tipo;
@@ -13,6 +13,7 @@ public class dispositivo {
         }
 
         void mostrarEstado(){
-            System.out.println("Estado: " + activo);
+            String estado = activo?"estado activo":"estado inactivo";
+            System.out.println(nombre+" "+activo);
         }
     }
