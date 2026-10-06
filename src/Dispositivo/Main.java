@@ -1,7 +1,7 @@
 package Dispositivo;
 
 public class Main {
-    public static void main(){
+    static void main() {
         Dispositivo disp1 = new Dispositivo();
         Dispositivo disp2 = new Dispositivo();
         disp1.setNombre("Telefono");
