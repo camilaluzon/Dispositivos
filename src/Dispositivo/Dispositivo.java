@@ -26,7 +26,7 @@ public class Dispositivo {
         public String getTipo(){
             return tipo;
         }
-        public boolean getActivo(){
+        public boolean isActivo(){
             return activo;
         }
 }
