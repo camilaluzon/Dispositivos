@@ -2,9 +2,9 @@ package Dispositivo;
 
 public class Dispositivo {
 
-        public String nombre;
-        String tipo;
-        public boolean activo;
+        private String nombre;
+        private String tipo;
+        private boolean activo;
 
         public void mostrarInformacion() {
             System.out.println("Nombre: "+nombre);
